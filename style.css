@@ -1,0 +1,41 @@
+body{
+    background-image: url(images/frontline.jpg);
+}
+nav{
+    display: block;
+    
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    margin-right: -5px;
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    text-transform: uppercase;
+}
+h1{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 50px;
+}
+.welcome h1{
+    color: blue;
+    text-align: center;
+    margin-right: 300px;
+}
+.welcome p{
+    color: white;
+    text-align: center;
+    margin-right: 300px;
+}

@@ -1,0 +1,45 @@
+body{
+    background-image: url(./home.jpg);
+}
+nav{
+    display: block;
+    
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    margin-right: -5px;
+    position: relative;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    text-transform: uppercase;
+}
+.hero h1{
+    text-align: center;
+    margin-top: 270px;
+    font-weight: bold;
+    font-size: 30px;
+}
+.hero p{
+    text-align: center;
+    font-weight: bold;
+}
+.hero button{
+    border-radius: 30px;
+    width: 150px;
+    height: 30px;
+    margin-left: 700px;
+    color: blue;
+}
+.hero button:hover{
+    transition: .4s;
+    color: green;
+}

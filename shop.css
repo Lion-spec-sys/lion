@@ -1,0 +1,57 @@
+body {
+   background-color: lightslategray;
+}
+
+nav{
+   display: block;
+   
+}
+nav ul{
+   text-align: right;
+}
+nav ul li{
+   display: inline-block;
+   text-align: center;
+   text-transform: capitalize;
+   padding: 20px;
+   margin-right: -5px;
+   position: relative;
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+}
+nav ul li:hover{
+   text-transform: uppercase;
+}
+nav{
+   display: block;
+   background-color: black;
+   padding: 0;
+   margin: 0;
+   
+}
+
+.product-card button{
+   padding: 10px;
+   margin: 20px;
+}
+.marquee {
+   background-color: darkcyan;
+}
+.footer{
+   background-color: aquamarine;
+}
+
+.product-content {
+   display: flex;
+}
+.featured-products h2{
+   color: blue;
+   text-align: center;
+   font-weight: bold;
+   font-size: 35px;
+}
+.featured-products h2 span{
+   color: white;
+}

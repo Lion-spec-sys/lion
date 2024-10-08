@@ -1,0 +1,47 @@
+body{
+    background: black;
+}
+nav{
+    display: block;
+    
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 20px;
+    margin-right: -5px;
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li:hover{
+    text-transform: uppercase;
+}
+h1 span{
+    color: blue;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
+.cnt h1{
+    text-align: center;
+    color: blue;
+    font-weight: bold;
+}
+.cnt ul li{
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    color: white;
+}
+.cnt img {
+    position: relative;
+    margin-left: 400px;
+
+}

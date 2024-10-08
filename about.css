@@ -1,0 +1,54 @@
+body{
+    background-image: url(./about.jpg);
+    background-size: cover;
+}
+nav{
+    display: block;
+    background-color: rgb(75, 157, 157);
+    color: #fff;
+    
+}
+nav ul{
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-right: -5px;
+    position: relative;
+    color: white;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul li:hover{
+    text-transform: uppercase;
+}
+.about h1{
+    text-align: center;
+}
+.about p{
+    text-align: center;
+}
+footer{
+    background-color: blue;height: 35px; width: 300px;
+    margin-top: 500px;
+    text-align: center;
+}
+.about h1 span{
+    color: rgb(130, 37, 94);
+}
+.about h2{
+    text-transform: capitalize;
+    text-decoration: dashed;
+    text-align: center;
+    padding: 50px;
+}
+.about h2 span{
+    color: aliceblue;
+}
+.navbar ul li{
+    color: #fff;
+}
